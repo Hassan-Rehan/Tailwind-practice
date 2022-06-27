@@ -1,0 +1,25 @@
+doctype html
+html
+	head
+		link(href='./output.css', rel='stylesheet')
+	body
+		h1#pageTitle.
+			page title goes here
+
+		p.para.
+			Lorem Ipsum is simply dummy text of 
+			the printing and typesetting
+
+		.display-box
+
+		#myDiv
+
+		input(type='password', name='inpPwd', data-js=`${ 5 > 2 ? "ok" : "not ok!" }`)
+
+		- const myClasses = ['class1', 'class2'];
+		div(class=myClasses)
+
+		- const myAttr = { src: 'myPhoto.png', alt: 'This is my photo' };
+		img&attributes(myAttr)
+
+		input(type='text', disabled)
